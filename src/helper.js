@@ -30,5 +30,5 @@ export function obtenerPlan(plan) {
 }
 
 export function primerMayuscula(texto) {
-  return texto.charAt(0).toUpperCase()+texto.slice(1);  
+  return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
