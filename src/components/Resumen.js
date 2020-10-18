@@ -29,6 +29,8 @@ const Resumen = ({ datos }) => {
   );
 };
 
-Resumen.propTypes = {};
+Resumen.propTypes = {
+  datos: PropTypes.object.isRequired,
+};
 
 export default Resumen;

@@ -40,13 +40,12 @@ function App() {
           guardarCargando={guardarCargando}
         />
         {cargando ? <Spinner /> : null}
-        {!cargando ? 
-          (
-            <>
-              <Resultado cotizacion={cotizacion} />
-              <Resumen datos={datos} />
-            </>
-          ) : null}
+        {!cargando ? (
+          <>
+            <Resumen datos={datos} />
+            <Resultado cotizacion={cotizacion} />
+          </>
+        ) : null}
       </ContenedorFormulario>
     </Contenedor>
   );
